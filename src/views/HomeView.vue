@@ -60,19 +60,6 @@ export default defineComponent({
 }
 
 /*social icons*/
-.social-icons {
-  list-style-type: none;
-  padding-left: 0;
-  display: flex;
-  justify-content: space-between;
-  max-width: 180px;
-}
-
-.social-icons .social-link {
-  font-size: 18px;
-  text-decoration: none;
-}
-
 .text-light {
   color: #f8f9fa !important;
 }

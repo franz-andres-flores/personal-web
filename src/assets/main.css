@@ -1,5 +1,55 @@
 @import './base.css';
 
+p {
+    font-size: calc(13px +(14 - 13)*((100vw - 300px) /(1300 - 300)));
+    opacity: .8;
+    color: #444;
+}
+
+.info {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.info span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #343a40;
+}
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.line {
+    display: block;
+    width: 25px;
+    height: 1.5px;
+    background-color: #F85C70;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 180px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 180px;
+}
+
+.social-icons .social-link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
 .btn-primary {
     background-color: #f55c70 !important;
     border-color: #f55c70 !important;
@@ -19,4 +69,3 @@
     color: #cbd3da !important;
     background-color: #222222 !important;
 }
-
